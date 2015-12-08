@@ -1,9 +1,9 @@
 <div class="job">
-    <h1>{{ job.title }}</h1>
-    <div class="job-body">{{ job.content }}</div>
-    <div class="job-footer row text-uppercase">
+    <h1>{{ post.title }}</h1>
+    <div class="post-body">{{ post.content }}</div>
+    <div class="post-footer row text-uppercase">
         <div class="col-md-4 text-left">
-            {% for tag in job.taxonomy.tag %}
+            {% for tag in post.taxonomy.tag %}
                 <a href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}">{{ tag }}</a>
             {% endfor %}
         </div>
