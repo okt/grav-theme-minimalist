@@ -1,7 +1,7 @@
 <div class="post">
     <h1>{{ post.title }}</h1>
     <div class="post-read"><a href="{{ post.url }}">Read</a></div>
-    <div class="post-body">{{ page.summary() }}</div>
+    <div class="post-body">{{ page.summary }}</div>
     <div class="post-footer row text-uppercase">
         <div class="col-md-4 text-left">
             {% for tag in post.taxonomy.tag %}
