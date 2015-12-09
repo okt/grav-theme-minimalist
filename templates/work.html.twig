@@ -3,8 +3,8 @@
     {% set collection = page.collection() %}
 
 	{% block content %}
-        {% for post in collection %}
-            {% include 'partials/post.html.twig' with {'post':post, 'truncate':true} %}
+        {% for job in collection %}
+            {% include 'partials/job.html.twig' with {'job':job, 'truncate':true} %}
         {% endfor %}
 
         {{ dump(config.plugins) }}
