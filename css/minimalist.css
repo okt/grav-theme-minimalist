@@ -24,28 +24,34 @@ h1 {
     /*font-family: 'Arvo', serif;*/
 }
 
-.post {
+.post,
+.job {
     margin-bottom: 100px;
 }
 
-.post img {
+.post img,
+.job img {
     max-width: 720px;
 }
 
-.post .post-footer {
+.post .post-footer,
+.job .job-footer {
     font-size: 11px;
 }
 
-.post-body {
+.post-body,
+.job-body {
 
 }
 
-.post h1 {
+.post h1,
+.job h1 {
     margin-top: 1em;
  /*   margin-bottom: 1em;*/
 }
 
-.post-read {
+.post-read,
+.job-read {
     font-size: 11px;
     margin-bottom: 1em;
 }
