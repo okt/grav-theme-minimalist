@@ -52,5 +52,18 @@
         {{ assets.js() }}
     {% endblock %}
 </div>
+<div class="footer">
+    <div class="container">
+            <ul class="list-inline footer-nav">
+                {% for page in pages.children %}
+                    {% if page.visible %}
+                        <li><a href="{{ page.url }}">{{ page.menu }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <p class="footer-cp">&copy; Echo Foxtrot 2016</p>
+    </div>
+</div>
+
 </body>
 </html>

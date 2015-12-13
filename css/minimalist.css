@@ -16,6 +16,27 @@ body {
     margin-bottom: 100px;
 }
 
+.footer {
+    background-color: #080F18;
+    margin-top: 10em;
+    padding-top: 2em;
+    color: #B2B2B2;
+}
+.footer-nav {
+    margin-bottom: 6em;
+}
+.footer-nav > li > a {
+    color: #B2B2B2;
+
+}
+.footer-nav > li > a:hover {
+    color: #FFFFFF;
+}
+.footer-cp {
+    text-align: right;
+    padding-bottom: 1em;
+}
+
 pre {
     background-color: #f8f8f8;
 }
